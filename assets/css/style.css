@@ -52,9 +52,6 @@
   margin-right: 0;
 }
 
-
-/* ============================================================== */
-
 .main{
   margin-bottom: 200px;
 }
@@ -92,6 +89,41 @@
   background: linear-gradient(45deg,orange,purple);
 }
 
+.carousel-caption p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.carousel-caption h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 91px;
+  text-transform: uppercase;
+}
+
+.carousel-caption {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.carousel-caption a {
+  text-transform: uppercase;
+  background: #00BC9C;
+  padding: 16px 47px;
+}
+
+.banner__btn {
+  margin-top: 53px;
+}
+
+.corousel__btn {
+  margin-top: 53px;
+}
 
 
-/* ============================================================== */
