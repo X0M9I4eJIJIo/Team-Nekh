@@ -26,6 +26,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  margin-bottom: 100px;
 }
 .header__logo{
   max-width: 80px;
@@ -50,3 +51,47 @@
 .nav-link:last-child{
   margin-right: 0;
 }
+
+
+/* ============================================================== */
+
+.main{
+  margin-bottom: 200px;
+}
+.main__cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main__card{
+  max-width: 350px;
+  
+}
+.main__card img{
+  width: auto;
+  height: 185px;
+}
+.card-item{}
+.card-title{
+  text-align: center;
+}
+.card-desc{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.card-btn{
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  background :rgb(58, 26, 146);
+  transition: .6s ease-in-out;
+}
+.card-btn:hover{
+  transform: scale(1.2);
+  background: linear-gradient(45deg,orange,purple);
+}
+
+
+
+/* ============================================================== */
