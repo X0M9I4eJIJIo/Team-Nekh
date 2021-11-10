@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+
 *{
   margin: 0;
   padding: 0;
@@ -5,17 +8,24 @@
   list-style: none;
   color: inherit;
 }
-.wrapper{}
+.wrapper{
+  font-family: 'Rubik', sans-serif;
+}
 .container{
   max-width: 1280px;
   margin: 0 auto;
 }
+
+.bg__header{
+  background :rgb(58, 26, 146);
+}
+
+
 .header{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background: rgb(77, 73, 73);
 }
 .header__logo{
   max-width: 80px;
@@ -26,7 +36,14 @@
 .nav{
   display: flex;
   align-items: center;
+  color: aliceblue;
 }
+
+.nav-link:hover{
+  transition: .6s all;
+  color: rgb(0, 0, 0);
+}
+
 .nav-link{
   margin-right: 25px;
 }
