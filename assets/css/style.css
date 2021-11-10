@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+.wrapper{}
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: rgb(77, 73, 73);
+}
+.header__logo{
+  max-width: 80px;
+}
+.header img{
+  width: 100%;
+}
+.nav{
+  display: flex;
+  align-items: center;
+}
+.nav-link{
+  margin-right: 25px;
+}
+.nav-link:last-child{
+  margin-right: 0;
+}
